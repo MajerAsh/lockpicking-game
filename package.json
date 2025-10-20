@@ -1,0 +1,27 @@
+{
+  "name": "lockpicking-game",
+  "version": "1.0.0",
+  "description": "A Phaser 3 lock-picking game featuring an interactive pin-tumbler lock.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "phaser",
+    "game",
+    "javascript",
+    "lockpicking",
+    "simulation",
+    "puzzle"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.80.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
