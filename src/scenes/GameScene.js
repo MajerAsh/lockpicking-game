@@ -14,7 +14,7 @@ export default class GameScene extends Phaser.Scene {
 
     // 🔹 Create tension bar graphics
     this.tensionBar = this.add.rectangle(400, 500, 200, 10, 0x444444);
-    this.tensionFill = this.add.rectangle(400, 500, 0, 10, 0x00ff88); //Change the color or size by adjusting here. For example, 0xff8800 gives an orange “stress” bar
+    this.tensionFill = this.add.rectangle(400, 500, 0, 10, 0x00ff88); //Change color or size by adjusting here. For example, 0xff8800 gives an orange “stress” bar
     this.tensionFill.setOrigin(0, 0.5);
     this.tensionFill.x = 300; // left edge of bar
 
